@@ -22,33 +22,12 @@ Designed strictly with **Moderate Difficulty** (~32 clues with a mathematically 
 
 ---
 
-## 🎁 How to Add Your Content to the Victory Text Box
+## 🎁 Victory Reward & Secret Clue
 
-When a player solves the puzzle, the victory screen appears featuring the **Special Message / Reward** container.
+When a player solves the puzzle, the victory screen appears featuring the **Special Reward image** and the secret clue:
 
-To add your own message, code, link, or text:
-
-1. Open [`index.html`](index.html).
-2. Locate the `<section id="victory-custom-box">` element (around line 170).
-3. Replace the placeholder content inside `<div id="custom-message-content">`:
-
-```html
-<!-- ==================================================================== -->
-<!-- CUSTOM VICTORY TEXT BOX                                              -->
-<!-- Replace the content below with whatever you'd like to display!       -->
-<!-- ==================================================================== -->
-<section id="victory-custom-box" class="victory-custom-container" aria-label="Special Message">
-  <div class="custom-box-header">
-    <span class="custom-box-badge">SPECIAL MESSAGE / REWARD</span>
-  </div>
-
-  <div id="custom-message-content" class="custom-box-inner">
-    <!-- PUT YOUR CUSTOM TEXT, CODE, OR LINK HERE: -->
-    <h3>🎉 Secret Code: SUDOKU-MASTER-2026</h3>
-    <p>Thank you for completing the challenge! Show this code to claim your prize.</p>
-  </div>
-</section>
-```
+- **Victory Reward Image**: Displays [`victory-reward.jpg`](victory-reward.jpg) inside the `#victory-custom-box` container.
+- **Secret Clue**: Displays `"remember, you might need it - 69"` prominently at the bottom of the victory screen.
 
 ---
 
