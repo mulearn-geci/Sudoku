@@ -1,0 +1,21 @@
+{
+  "name": "sudoku-moderate",
+  "version": "1.0.0",
+  "description": "A modern, premium Sudoku game with moderate difficulty, victory fanfare, and customizable reward container.",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve -l 3000 .",
+    "start": "npx serve -l 3000 .",
+    "build": "echo 'Static build ready for deployment'"
+  },
+  "keywords": [
+    "sudoku",
+    "game",
+    "moderate",
+    "puzzle",
+    "cyber-zen",
+    "vercel"
+  ],
+  "author": "",
+  "license": "MIT"
+}
