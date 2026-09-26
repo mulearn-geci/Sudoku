@@ -5,8 +5,7 @@
   "main": "index.html",
   "scripts": {
     "dev": "npx serve -l 3000 .",
-    "start": "npx serve -l 3000 .",
-    "build": "echo 'Static build ready for deployment'"
+    "start": "npx serve -l 3000 ."
   },
   "keywords": [
     "sudoku",
